@@ -1,120 +1,111 @@
-<div align="center">
-
-<p>
-  <img src="https://img.shields.io/badge/SECURITY-INFRASTRUCTURE-2563EB?style=for-the-badge&labelColor=0F172A" alt="Security Infrastructure" />
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="MINSEOK — Security Infrastructure &amp; Networking. Navy banner with a shield and connected network nodes." />
 </p>
 
-<h1>Minseok</h1>
-
-<p><strong>Learning to build, operate, and troubleshoot secure infrastructure.</strong></p>
-
-<p>
-  Information Security Student · South Korea<br />
-  Aspiring Security Infrastructure &amp; Network Security Engineer
+<p align="center">
+  <strong>Aspiring Security Infrastructure / Network Security Engineer</strong><br />
+  <sub>Information Security Student · South Korea</sub>
 </p>
 
-<p>
-  <a href="#about-me">About</a> &middot;
-  <a href="#hands-on-experience">Experience</a> &middot;
-  <a href="#projects--labs">Labs</a> &middot;
-  <a href="#roadmap">Roadmap</a>
+<p align="center">
+  <a href="#-about-me">About</a> &nbsp;·&nbsp;
+  <a href="#-tech-stack">Stack</a> &nbsp;·&nbsp;
+  <a href="#-hands-on-labs">Labs</a> &nbsp;·&nbsp;
+  <a href="#-roadmap">Roadmap</a> &nbsp;·&nbsp;
+  <a href="#-links">Links</a>
 </p>
-
-</div>
 
 ---
 
-## About Me
+## ◈ About Me
 
-I'm an Information Security student at **Korea ICT Polytechnic College (한국 ICT폴리텍대학)**, building a foundation in Linux, TCP/IP, routing, and network diagnostics.
+I'm an **Information Security student at Korea ICT Polytechnic College (한국 ICT폴리텍대학)**, learning how networks and systems connect, operate, and stay secure.
 
-I'm working toward a career in **security infrastructure engineering**, **network security engineering**, or **security solution deployment and technical support**. I'm especially interested in configuring equipment, deploying and operating infrastructure, and troubleshooting connectivity and system issues.
+- **Career focus** — security infrastructure, security solution deployment & operations, and network security engineering.
+- **Current foundation** — Linux, networking, and Python fundamentals.
+- **Hands-on practice** — configuring simulated networks and investigating connectivity with diagnostic tools.
 
-My experience so far consists of introductory network labs and ongoing Linux study. The dated exercises below are based on my study records in Notion.
+> Building a foundation through configuration, verification, and troubleshooting — one lab at a time.
 
-## Tech & Tools
+## ⌘ Tech Stack
 
 <p>
-  <img src="https://img.shields.io/badge/Linux-Foundations-2563EB?style=flat-square&labelColor=0F172A" alt="Linux: foundations" />
-  <img src="https://img.shields.io/badge/TCP%2FIP-Learning-2563EB?style=flat-square&labelColor=0F172A" alt="TCP/IP: learning" />
-  <img src="https://img.shields.io/badge/Routing-Introductory_Labs-2563EB?style=flat-square&labelColor=0F172A" alt="Routing: introductory labs" />
+  <img src="https://img.shields.io/badge/Linux-Learning-38BDF8?style=flat-square&amp;logo=linux&amp;logoColor=E2E8F0&amp;labelColor=0F172A" alt="Linux — learning" />
+  <img src="https://img.shields.io/badge/Networking-Learning-38BDF8?style=flat-square&amp;labelColor=0F172A" alt="Networking — learning" />
+  <img src="https://img.shields.io/badge/Python-Learning-38BDF8?style=flat-square&amp;logo=python&amp;logoColor=E2E8F0&amp;labelColor=0F172A" alt="Python — learning" />
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Packet_Tracer-Lab_Experience-2563EB?style=flat-square&amp;logo=cisco&amp;logoColor=E2E8F0&amp;labelColor=0F172A" alt="Cisco Packet Tracer — lab experience" />
+  <img src="https://img.shields.io/badge/IPv4_%26_RIP-Lab_Experience-2563EB?style=flat-square&amp;labelColor=0F172A" alt="IPv4 and RIP — lab experience" />
 </p>
 
-| Technology / tool | Current experience |
+| Area | Practice & tools |
 | :--- | :--- |
-| Cisco Packet Tracer | Router, switch, and PC network simulation |
-| IPv4 & RIP | Interface and host addressing; introductory dynamic routing |
-| Ping & Simulation Mode | ICMP connectivity checks |
-| Windows diagnostics | Connection inspection and PID-to-process tracing |
-| Linux | Learning commands and system fundamentals |
-| Python | Learning fundamentals |
+| Network configuration | Packet Tracer · IPv4 addressing · default gateways · RIP |
+| Connectivity diagnostics | `ping` · `tracert` · `arp` · Simulation Mode |
+| Connection inspection | `netstat -ano` · `tasklist /FI` |
+| Systems & programming | Linux fundamentals · Python basics — learning in progress |
 
-## Hands-on Experience
+## ⌁ Hands-on Labs
 
-### Network Building Lab
-**September 30, 2026 · Cisco Packet Tracer**
+### 01 / Build & connect
 
-- Built a simulated network that included **three routers**.
-- Configured router interfaces and PC IP addresses and default gateways.
-- Applied **RIP dynamic routing**.
-- Verified **ICMP communication** using Ping and Simulation Mode.
-- Saved the router configurations.
+**Cisco Packet Tracer · Introductory lab completed · September 30, 2026**
 
-This exercise covered the workflow from device configuration to connectivity verification in a simulated environment.
+- Built a simulated network with **three routers**.
+- Configured router interfaces, PC IP addresses, and default gateways.
+- Applied **RIP dynamic routing** and saved router configurations.
+- Verified **ICMP connectivity** with Ping and Simulation Mode.
 
-### Network Diagnostics
-**October 8, 2026 · Windows**
+### 02 / Inspect & troubleshoot
 
-- Studied the **four-layer TCP/IP model** and the fundamentals of **TCP and UDP**.
-- Used `netstat -ano` to inspect IP addresses, ports, TCP connection states, and process IDs.
-- Used `tasklist /FI` to identify the processes associated with network connections.
+**Windows · Introductory diagnostics lab completed · October 8, 2026**
 
-This exercise connected network connection information with the processes using those connections.
+- Studied the four-layer TCP/IP model and TCP/UDP fundamentals.
+- Inspected connections, ports, TCP states, and PIDs with `netstat -ano`.
+- Matched network connections to processes with `tasklist /FI`.
 
-## Currently Learning
+**Additional networking practice** — used `ping`, `tracert`, and `arp` to check reachability, inspect route hops, and view IP-to-MAC mappings.
 
-- **Linux** — basic commands, file permissions, user management, file systems, processes, and services.
-- **Networking** — strengthening TCP/IP, routing, and diagnostic fundamentals.
-- **Python** — learning programming fundamentals.
+<sub>These are learning exercises. Detailed lab write-ups and further security practice are part of the roadmap below.</sub>
+
+## ↗ Currently Learning
+
+| Focus | Working on | Status |
+| :--- | :--- | :--- |
+| Linux | Commands, permissions, users, file systems, processes & services | In progress |
+| Networking | TCP/IP, addressing, routing & diagnostics | In progress |
+| Python | Programming fundamentals | In progress |
+
+## ◇ Certifications
 
 | Qualification | Status |
 | :--- | :--- |
-| Linux Master Level 2 · 리눅스마스터 2급 | Preparing |
-| Network Administrator Level 2 · 네트워크관리사 2급 | Preparing |
+| 리눅스마스터 2급 · Linux Master Level 2 | Preparing |
+| 네트워크관리사 2급 · Network Administrator Level 2 | Preparing |
 
-Both qualifications are preparation goals; neither has been earned yet.
+<sub>Both certifications are preparation goals; neither has been earned yet.</sub>
 
-## Projects & Labs
+## → Roadmap
 
-The completed entries below are introductory exercises recorded in Notion. Planned labs have not been performed.
+- [ ] **Strengthen the foundation** — continue Linux, networking, and Python study; prepare for both certifications. **In progress**
+- [ ] **Document repeatable labs** — record topology, configurations, verification results, and troubleshooting notes. **Planned**
+- [ ] **Start Linux hardening labs** — practice system security after reinforcing the fundamentals. **Planned**
+- [ ] **Explore security deployment & operations** — build toward solution setup, configuration checks, and technical support. **Planned**
 
-| Lab / study area | Status |
-| :--- | :--- |
-| Network Building Lab · 2026-09-30 | Exercise completed |
-| Network Diagnostics · 2026-10-08 | Exercise completed |
-| Linux fundamentals | Learning in progress |
-| Linux hardening | Planned |
-| Advanced security labs | Planned |
+## ↗ Links
 
-For future lab documentation, I plan to include the objective, topology or environment, configuration steps, verification results, and troubleshooting notes.
-
-## Roadmap
-
-1. **Deepen Linux and networking foundations**  
-   Continue Linux and Python study, revisit TCP/IP and routing concepts, and prepare for both Level 2 qualifications.
-
-2. **Develop repeatable configuration and troubleshooting practice**  
-   Build on the Packet Tracer and Windows exercises with documented configurations, connectivity checks, and diagnostic steps.
-
-3. **Begin Linux hardening and security labs**  
-   Progress toward system hardening and network security exercises after strengthening the fundamentals.
-
-4. **Build deployment and technical support skills**  
-   Practice security solution setup, operation, configuration verification, and clear troubleshooting documentation.
+<p>
+  <a href="https://github.com/minseok-infra">
+    <img src="https://img.shields.io/badge/GitHub-minseok--infra-38BDF8?style=flat-square&amp;logo=github&amp;logoColor=E2E8F0&amp;labelColor=0F172A" alt="GitHub profile: minseok-infra" />
+  </a>
+  <a href="https://github.com/minseok-infra?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore-Repositories-2563EB?style=flat-square&amp;labelColor=0F172A" alt="Explore my repositories" />
+  </a>
+</p>
 
 ---
 
-<div align="center">
-  <sub>minseok-infra &nbsp;·&nbsp; Linux &nbsp;/&nbsp; Networking &nbsp;/&nbsp; Security Infrastructure</sub>
-</div>
-
+<p align="center">
+  <sub><strong>MINSEOK</strong> &nbsp; / &nbsp; CONFIGURE · VERIFY · TROUBLESHOOT</sub>
+</p>
