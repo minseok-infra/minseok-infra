@@ -1,47 +1,80 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">MINSEOK — Security Infrastructure &amp; Networking</title>
-  <desc id="desc">A dark navy portfolio banner with blue and cyan accents, a shield, and a connected network diagram.</desc>
+  <title id="title">MINSEOK — Security Infrastructure / Network Security Engineer</title>
+  <desc id="desc">Brushed silver and gunmetal on dark charcoal. A steel shield encloses a terminal, connected to four network nodes.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1224"/>
-      <stop offset="1" stop-color="#102748"/>
+      <stop stop-color="#0B0F14"/>
+      <stop offset="0.6" stop-color="#151B22"/>
+      <stop offset="1" stop-color="#252D36"/>
     </linearGradient>
     <linearGradient id="accent" x1="64" y1="0" x2="1136" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2563EB"/>
-      <stop offset="1" stop-color="#67E8F9"/>
+      <stop stop-color="#46515D"/>
+      <stop offset="0.4" stop-color="#D7DEE5"/>
+      <stop offset="0.6" stop-color="#F1F5F9"/>
+      <stop offset="1" stop-color="#87939F"/>
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" stroke="#93C5FD" stroke-opacity="0.055"/>
+    <linearGradient id="wordmark" x1="64" y1="80" x2="500" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7DEE5"/>
+      <stop offset="0.25" stop-color="#F1F5F9"/>
+      <stop offset="0.55" stop-color="#87939F"/>
+      <stop offset="0.85" stop-color="#D7DEE5"/>
+      <stop offset="1" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="890" y1="80" x2="1064" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#87939F"/>
+      <stop offset="0.25" stop-color="#F1F5F9"/>
+      <stop offset="0.45" stop-color="#A7B2BD"/>
+      <stop offset="0.52" stop-color="#596572"/>
+      <stop offset="0.76" stop-color="#D7DEE5"/>
+      <stop offset="1" stop-color="#687583"/>
+    </linearGradient>
+    <linearGradient id="shieldFace" x1="936" y1="105" x2="1030" y2="243" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B4652"/>
+      <stop offset="0.48" stop-color="#252D36"/>
+      <stop offset="1" stop-color="#12181F"/>
+    </linearGradient>
+    <pattern id="brush" width="1200" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 0.5H1200" stroke="#D7DEE5" stroke-opacity="0.035"/>
     </pattern>
+    <clipPath id="frame"><rect x="0.5" y="0.5" width="1199" height="359" rx="20"/></clipPath>
   </defs>
   <rect width="1200" height="360" rx="20" fill="url(#background)"/>
-  <rect width="1200" height="360" rx="20" fill="url(#grid)"/>
-  <rect x="64" y="54" width="44" height="4" rx="2" fill="#38BDF8"/>
+  <g clip-path="url(#frame)">
+    <path d="M720 0H925L750 360H545Z" fill="#D7DEE5" fill-opacity="0.025"/>
+    <path d="M947 0H1200V360H772Z" fill="#87939F" fill-opacity="0.025"/>
+    <rect width="1200" height="360" fill="url(#brush)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="20" stroke="#87939F" stroke-opacity="0.3"/>
+  <rect x="64" y="54" width="36" height="3" rx="1.5" fill="url(#accent)"/>
   <g font-family="Segoe UI, Arial, sans-serif">
-    <text x="122" y="61" fill="#93C5FD" font-size="14" font-weight="600" letter-spacing="3">LEARNING IN PUBLIC</text>
-    <text x="60" y="174" fill="#F1F5F9" font-size="88" font-weight="700" letter-spacing="5">MINSEOK</text>
-    <text x="64" y="221" fill="#67E8F9" font-size="25" font-weight="600">Security Infrastructure &amp; Networking</text>
-    <text x="64" y="270" fill="#A8B9D0" font-size="16" letter-spacing="2">CONFIGURE / VERIFY / TROUBLESHOOT</text>
+    <text x="116" y="60" fill="#87939F" font-size="14" font-weight="600" letter-spacing="3">CONFIGURE. VERIFY. TROUBLESHOOT.</text>
+    <text x="60" y="168" fill="url(#wordmark)" font-size="84" font-weight="700" letter-spacing="5">MINSEOK</text>
+    <text x="64" y="215" fill="#D7DEE5" font-size="25" font-weight="600">Security Infrastructure /</text>
+    <text x="64" y="249" fill="#D7DEE5" font-size="25" font-weight="600">Network Security Engineer</text>
+    <text x="64" y="287" fill="#87939F" font-size="14" letter-spacing="2">FOUNDATIONS FIRST · HANDS-ON LEARNING</text>
   </g>
-  <g stroke="#3B82F6" stroke-width="2">
-    <path d="M834 100H906L942 136M804 252H888L936 204M1042 140L1082 100H1132M1040 207L1086 252H1132"/>
-    <path d="M804 176H901M1075 176H1150" stroke-opacity="0.45" stroke-dasharray="5 7"/>
+  <g stroke="#87939F" stroke-width="2" stroke-linejoin="round">
+    <path d="M820 105H886L933 150M820 250H886L936 206M1025 150L1073 105H1136M1022 206L1073 250H1136"/>
+    <path d="M848 178H918M1040 178H1108" stroke-opacity="0.3"/>
   </g>
-  <g fill="#102748" stroke="#38BDF8" stroke-width="2">
-    <rect x="820" y="86" width="28" height="28" rx="7"/>
-    <rect x="790" y="238" width="28" height="28" rx="7"/>
-    <rect x="1118" y="86" width="28" height="28" rx="7"/>
-    <rect x="1118" y="238" width="28" height="28" rx="7"/>
+  <g fill="#252D36" stroke="url(#steel)" stroke-width="2">
+    <rect x="806" y="91" width="28" height="28" rx="5"/>
+    <rect x="806" y="236" width="28" height="28" rx="5"/>
+    <rect x="1122" y="91" width="28" height="28" rx="5"/>
+    <rect x="1122" y="236" width="28" height="28" rx="5"/>
   </g>
-  <circle cx="988" cy="176" r="88" fill="#0F1E36" stroke="#24496F"/>
-  <circle cx="988" cy="176" r="73" stroke="#38BDF8" stroke-opacity="0.18" stroke-dasharray="3 8"/>
-  <path d="M988 121L1030 138V172C1030 201 1011 222 988 233C965 222 946 201 946 172V138L988 121Z" fill="#123253" stroke="#67E8F9" stroke-width="2.5" stroke-linejoin="round"/>
-  <path d="M988 145V203M962 174H1014" stroke="#38BDF8" stroke-width="2"/>
-  <g fill="#0F1E36" stroke="#A5F3FC" stroke-width="2">
-    <circle cx="988" cy="145" r="5"/>
-    <circle cx="962" cy="174" r="5"/>
-    <circle cx="1014" cy="174" r="5"/>
-    <circle cx="988" cy="203" r="5"/>
+  <circle cx="978" cy="178" r="103" fill="#0B0F14" fill-opacity="0.35" stroke="#87939F" stroke-opacity="0.16"/>
+  <circle cx="978" cy="178" r="88" stroke="#87939F" stroke-opacity="0.13"/>
+  <path d="M978 89L1044 116V170C1044 218 1015 251 978 269C941 251 912 218 912 170V116Z" fill="url(#steel)" stroke="#D7DEE5" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M978 100L1034 123V170C1034 212 1010 242 978 258C946 242 922 212 922 170V123Z" fill="url(#shieldFace)" stroke="#0B0F14" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M978 101L1033 124V169L978 225Z" fill="#D7DEE5" fill-opacity="0.035"/>
+  <rect x="943" y="145" width="70" height="54" rx="6" fill="#0B0F14" stroke="#D7DEE5" stroke-width="2"/>
+  <path d="M943 157H1013" stroke="#87939F" stroke-opacity="0.45"/>
+  <g fill="#87939F">
+    <circle cx="951" cy="151" r="1.5"/>
+    <circle cx="957" cy="151" r="1.5"/>
+    <circle cx="963" cy="151" r="1.5"/>
   </g>
-  <rect x="64" y="318" width="1072" height="2" rx="1" fill="url(#accent)"/>
+  <path d="M955 168L963 175L955 182M972 183H985" stroke="#F1F5F9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="64" y="323" width="1072" height="1" fill="url(#accent)" opacity="0.6"/>
 </svg>

@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="MINSEOK — 네이비 배경과 네트워크·실드 모티프의 보안 인프라 포트폴리오 배너" />
+  <img src="./assets/header.svg" width="100%" alt="MINSEOK — 실버 메탈릭 방패, 터미널, 네트워크 연결 구조를 담은 건메탈 배너" />
 </p>
 
 <p align="center">
-  <strong>보안 인프라 · 네트워크 보안 엔지니어를 준비합니다</strong><br />
+  <strong>보안 인프라 · 네트워크 보안 엔지니어 준비 중</strong><br />
   <sub>Aspiring Security Infrastructure / Network Security Engineer</sub><br />
-  <sub>관심 분야: 보안솔루션 구축·운영 · Linux · Networking · Python</sub>
+  <sub>보안 인프라 구축·운영 · 네트워크 보안 · 장애 진단</sub>
 </p>
 
 <p align="center">
@@ -22,22 +22,22 @@
 
 ## ◈ About Me
 
-**한국 ICT폴리텍대학 정보보안학과**에서 공부하며, 네트워크와 시스템의 동작 원리를 익히고 있습니다.
+**네트워크와 시스템의 기반을 이해하고, 안정적인 보안 인프라를 구축·운영하는 엔지니어**를 목표로 공부하고 있습니다.
 
-보안 인프라와 네트워크 보안 엔지니어를 목표로 **보안솔루션 구축·운영과 문제 해결**에 관심을 두고 있습니다. 현재는 Linux, 네트워크, Python의 기초를 학습하고, Packet Tracer와 Windows 명령어로 배운 내용을 직접 확인하고 있습니다.
+네트워크 보안과 **장애 진단·문제 해결**에 관심이 있습니다. 현재는 Linux, Networking, Python의 기초를 학습하며, Packet Tracer와 Windows 명령어로 설정과 통신 동작을 직접 확인하고 있습니다.
 
 > 설정을 따라 하는 데서 그치지 않고, 왜 필요한지 이해하고 결과를 검증하는 연습을 하고 있습니다.
 
 ## ⌘ Tech Stack
 
 <p>
-  <img src="https://img.shields.io/badge/Linux-Learning-38BDF8?style=flat-square&amp;logo=linux&amp;logoColor=E2E8F0&amp;labelColor=0F172A" alt="Linux — 학습 중" />
-  <img src="https://img.shields.io/badge/Networking-Learning-38BDF8?style=flat-square&amp;labelColor=0F172A" alt="Networking — 학습 중" />
-  <img src="https://img.shields.io/badge/Python-Learning-38BDF8?style=flat-square&amp;logo=python&amp;logoColor=E2E8F0&amp;labelColor=0F172A" alt="Python — 학습 중" />
+  <img src="https://img.shields.io/badge/Linux-Learning-D7DEE5?style=flat-square&amp;logo=linux&amp;logoColor=F1F5F9&amp;labelColor=252D36" alt="Linux — 학습 중" />
+  <img src="https://img.shields.io/badge/Networking-Learning-D7DEE5?style=flat-square&amp;labelColor=252D36" alt="Networking — 학습 중" />
+  <img src="https://img.shields.io/badge/Python-Learning-D7DEE5?style=flat-square&amp;logo=python&amp;logoColor=F1F5F9&amp;labelColor=252D36" alt="Python — 학습 중" />
 </p>
 <p>
-  <img src="https://img.shields.io/badge/Packet_Tracer-Lab_Experience-2563EB?style=flat-square&amp;logo=cisco&amp;logoColor=E2E8F0&amp;labelColor=0F172A" alt="Cisco Packet Tracer — 기초 실습 경험" />
-  <img src="https://img.shields.io/badge/IPv4_%26_RIP-Lab_Experience-2563EB?style=flat-square&amp;labelColor=0F172A" alt="IPv4와 RIP — 기초 실습 경험" />
+  <img src="https://img.shields.io/badge/Packet_Tracer-Lab_Experience-87939F?style=flat-square&amp;logo=cisco&amp;logoColor=F1F5F9&amp;labelColor=252D36" alt="Cisco Packet Tracer — 기초 실습 경험" />
+  <img src="https://img.shields.io/badge/IPv4_%26_RIP-Lab_Experience-87939F?style=flat-square&amp;labelColor=252D36" alt="IPv4와 RIP — 기초 실습 경험" />
 </p>
 
 <sub>Learning은 학습 중, Lab Experience는 기초 실습 경험을 뜻합니다.</sub>
@@ -100,10 +100,10 @@
 
 <p>
   <a href="https://github.com/minseok-infra">
-    <img src="https://img.shields.io/badge/GitHub-minseok--infra-38BDF8?style=flat-square&amp;logo=github&amp;logoColor=E2E8F0&amp;labelColor=0F172A" alt="GitHub 프로필: minseok-infra" />
+    <img src="https://img.shields.io/badge/GitHub-minseok--infra-D7DEE5?style=flat-square&amp;logo=github&amp;logoColor=F1F5F9&amp;labelColor=252D36" alt="GitHub 프로필: minseok-infra" />
   </a>
   <a href="https://github.com/minseok-infra?tab=repositories">
-    <img src="https://img.shields.io/badge/Explore-Repositories-2563EB?style=flat-square&amp;labelColor=0F172A" alt="공개 저장소 둘러보기" />
+    <img src="https://img.shields.io/badge/Explore-Repositories-87939F?style=flat-square&amp;labelColor=252D36" alt="공개 저장소 둘러보기" />
   </a>
 </p>
 
